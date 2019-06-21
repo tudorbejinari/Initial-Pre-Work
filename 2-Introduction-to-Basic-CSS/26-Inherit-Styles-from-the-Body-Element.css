@@ -1,0 +1,10 @@
+/* You can style your body element and all other elements will inherit your body element's styles. this challenge totally proves that. h1 inherit all body style like color or font-family. */
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+</style>
+
+  <h1>Hello World</h1>
