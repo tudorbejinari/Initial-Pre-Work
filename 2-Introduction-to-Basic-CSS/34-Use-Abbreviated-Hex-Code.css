@@ -1,0 +1,23 @@
+/* its almost imposible to remeber 16 million colors so hex code can be shorted to one digit for red , one green and one blue. For example #FF0000 and #F00 will be te same color. */
+<style>
+  .red-text {
+    color: #F00;
+  }
+  .fuchsia-text {
+    color: #F0F;
+  }
+  .cyan-text {
+    color: #0FF;
+  }
+  .green-text {
+    color: 	#0F0;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="fuchsia-text">I am fuchsia!</h1>
+
+<h1 class="cyan-text">I am cyan!</h1>
+
+<h1 class="green-text">I am green!</h1>
