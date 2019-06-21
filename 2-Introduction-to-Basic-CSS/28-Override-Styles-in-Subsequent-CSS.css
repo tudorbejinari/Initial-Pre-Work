@@ -1,0 +1,16 @@
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  /* this example shows that second declaration will always take precedence over the first and beacause blue-text is declared second it overides the first one. Great example. Little detail but very important to know. */
+  .blue-text {
+    color: blue;
+  }
+</style>
+/* added a second class to h1 */
+<h1 class="pink-text blue-text">Hello World!</h1>
