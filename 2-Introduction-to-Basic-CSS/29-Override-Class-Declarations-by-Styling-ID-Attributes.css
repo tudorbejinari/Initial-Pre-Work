@@ -1,0 +1,19 @@
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  /* this is a great example that doesnt matter the order you declare the Css above or below pink-text class anyway id attribute will always take precedence. our h1 wil be orange color  */
+  #orange-text {
+    color: orange;
+  }
+</style>
+/* added also an id="orange-text" to h1 */
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
