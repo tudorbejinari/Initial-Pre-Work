@@ -1,0 +1,18 @@
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  /* !important is the most powerfull method. So when you absolutely need to be sure 100% that an element has specific Css  just simply add !important. in our example h1 will be now 100% pink. */
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
