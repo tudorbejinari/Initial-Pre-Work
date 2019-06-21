@@ -1,0 +1,6 @@
+/* Another way to represent colors in Css is to use 6 hexadecimal where two each for red, green and blue. in our case #000000 will be black. */
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
