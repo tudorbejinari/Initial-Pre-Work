@@ -1,0 +1,13 @@
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  /* this example proves that h1 cant be green and pink at the same time. our class override the body elements's color:green with pink color. */
+  .pink-text {
+    color: pink;
+  }
+</style>
+/* Added a class to our h1 */
+<h1 class="pink-text">Hello World!</h1>
