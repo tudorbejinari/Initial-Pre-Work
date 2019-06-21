@@ -1,0 +1,6 @@
+/* its a very easy task just by giving background-color to body element that we just assume exist :) */
+<style>
+body {
+  background-color: black;
+}
+</style>
