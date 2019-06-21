@@ -1,0 +1,13 @@
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    /*  I set up another background declaration to red just in case any browsers ignores any properties that it doesnt recognize or support. */
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
