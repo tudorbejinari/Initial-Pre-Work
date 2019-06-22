@@ -1,0 +1,30 @@
+<style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    /* In CSS Gird to define the size of rows and columns you can use units like:px, em , fr(fraction), auto(automatically), % (percent width of container) */
+    /* In our challenge I created 3 columns using 3 diferrent units fr, px, and fr. */
+    /* modify the code below this line */
+
+    grid-template-columns: 1fr 100px 2fr;
+    
+    /* modify the code above this line */
+    grid-template-rows: 50px 50px;
+  }
+</style>
+
+<div class="container">
+  <div class="d1">1</div>
+  <div class="d2">2</div>
+  <div class="d3">3</div>
+  <div class="d4">4</div>
+  <div class="d5">5</div>
+</div>
