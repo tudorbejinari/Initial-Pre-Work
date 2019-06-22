@@ -3,8 +3,8 @@
     background: gray;
     display: flex;
     height: 500px;
-    /* align-items is pretty much the same as justify-content. Css property align-items offers to align flex items along the cross axis */
-    these are some values available for align-items : flex-start, flex-end, center , stretch or baseline.
+    /* align-items is pretty much the same as justify-content. Css property align-items offers to align flex items along the cross axis. these are some values available for align-items : flex-start, flex-end, center , stretch or baseline.*/
+
     align-items: center;
   }
   #box-1 {
