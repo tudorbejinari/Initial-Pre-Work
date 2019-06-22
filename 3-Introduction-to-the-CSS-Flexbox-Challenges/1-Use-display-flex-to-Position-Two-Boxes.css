@@ -1,0 +1,27 @@
+<style>
+  #box-container {
+    height: 500px;
+    /* Flexbox concept allows to position elements in a flexible way. display: flex is a css property allows you to use other
+    flex properties to build a rsponsive page. */
+    display: flex;
+
+  }
+
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+
+  }
+</style>
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>

@@ -1,0 +1,26 @@
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+    /* flex-direction allows to align any childer of element  into rows means horizontolly  or collumn means verically.
+    other options for flex-direction will be column-reverse or in our situation row-reverse. */
+    flex-direction: row-reverse;
+
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 50%;
+    height: 50%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 50%;
+    height: 50%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
